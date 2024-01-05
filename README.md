@@ -118,7 +118,8 @@ Consequently to me the file structure appeared as follows:
 I've also found a [german blog entry](https://schueckvcr.com/2017/10/24/real-playlists-rpls-file-reader/) with some more file structure information, but only parts of the reported structure were valid in my case.
 
 
-Even if Header and asumed Version is equal to example above the structure of DMR-BCT855 has a different Offset for he filename. So better to doublecheck filestructure for your device and adapt offset
+Some other example:
+Even if header and asumed Version is equal to example above the structure of e.g. a Panasonic DMR-BCT855 has a different Offset for the filename since there seems to me more fields depending on device firmware. So better to doublecheck filestructure for your device and adapt offset
  
 Example how to adapt for Panasonic DMR-BCT855
 | Byte address |  Content  |
